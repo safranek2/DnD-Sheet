@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD-Sheet\\DnD Sheet\\DnD Sheet\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD-Sheet\\DnD Sheet\\DnD Sheet\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -243,6 +239,10 @@
     {
       "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD-Sheet\\DnD Sheet\\DnD Sheet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD-Sheet\\DnD Sheet\\DnD Sheet\\wwwroot\\logo.svg",
+      "PackagePath": "staticwebassets\\logo.svg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DnD Sheet.Microsoft.AspNetCore.StaticWebAssets.props",

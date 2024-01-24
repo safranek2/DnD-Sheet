@@ -28,3 +28,4 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD-Sheet\DnD Sheet\DnD Sheet\obj\Debug
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD-Sheet\DnD Sheet\DnD Sheet\obj\Debug\net7.0\DnD Sheet.pdb
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD-Sheet\DnD Sheet\DnD Sheet\obj\Debug\net7.0\DnD Sheet.genruntimeconfig.cache
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD-Sheet\DnD Sheet\DnD Sheet\obj\Debug\net7.0\ref\DnD Sheet.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD-Sheet\DnD Sheet\DnD Sheet\obj\Debug\net7.0\DnD Sheet.sourcelink.json
