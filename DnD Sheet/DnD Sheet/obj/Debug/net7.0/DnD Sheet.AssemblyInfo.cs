@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DnD Sheet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eff1c058b8c694f3cdba81953db8a88db3c74d68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ad5bc3769670f278a85b3cb00592d9474f3b2e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("DnD Sheet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DnD Sheet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
