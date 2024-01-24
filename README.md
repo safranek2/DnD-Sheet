@@ -1,2 +1,2 @@
 # DnD Sheet
- DnD Sheet: Webová aplikace v C# pro tvorbu postav a správu herních sezení ve světě Dungeons and Dragons. Snadné vytváření postav, podrobný návod a efektivní organizace session pro nekonečné dobrodružství.
+ DnD Sheet: a C# web application for creating characters and managing game sessions in the Dungeons and Dragons world. Easy character creation, detailed guides and efficient session organization for endless adventures.
