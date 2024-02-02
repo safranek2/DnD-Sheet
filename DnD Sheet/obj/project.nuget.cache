@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "X4tdve7I5k1J9ntKASre+hCC8scQgOZzCxJjWhxkRF6oybs4o2iasQvBtZv6Mxz1whPGJZuP562t63zYShwRzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD-Sheet\\DnD Sheet\\DnD Sheet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\safra\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\safra\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\safra\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\safra\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

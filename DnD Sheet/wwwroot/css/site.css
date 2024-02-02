@@ -1,0 +1,181 @@
+/* Common styles for both light and dark modes */
+html {
+    font-size: 14px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.offcanvas-body a {
+    width: fit-content;
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+    .dropdown-menu a {
+        display: block;
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+main {
+    margin-top: 4.5rem;
+}
+
+footer {
+    bottom: 0;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #212529;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+    .light-mode .navbar {
+        background-color: #fff;
+        color: #212529;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+    .light-mode .navbar-toggler {
+        border-color: #212529;
+        transition: border-color 0.3s;
+    }
+
+    .light-mode .navbar-toggler-icon {
+        filter: invert(0);
+        transition: filter 0.3s;
+    }
+
+    .light-mode .offcanvas {
+        background-color: #fff;
+        color: #212529;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+        .light-mode .offcanvas .btn-close,
+        .light-mode .offcanvas .btn-close:focus {
+            filter: brightness(0);
+            transition: filter 0.3s;
+        }
+
+    .light-mode .offcanvas-body a {
+        color: #212529;
+        transition: color 0.3s;
+    }
+
+    .light-mode .offcanvas-body .btn {
+        border-color: #212529;
+        color: #212529;
+        transition: border-color 0.3s, color 0.3s;
+    }
+
+    .light-mode .dropdown-menu {
+        background-color: #fff;
+        color: #212529;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+        .light-mode .dropdown-menu a {
+            color: #212529;
+            transition: color 0.3s;
+        }
+
+            .light-mode .dropdown-menu a:hover {
+                background-color: #d3d3d3;
+                transition: background-color 0.3s;
+            }
+
+    .light-mode footer a {
+        color: #212529;
+        transition: color 0.3s;
+    }
+
+.dark-mode {
+    background-color: #212529;
+    color: #fff;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+    .dark-mode .navbar {
+        background-color: #212529;
+        color: #fff;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+    .dark-mode .navbar-toggler {
+        border-color: #fff;
+        transition: border-color 0.3s;
+    }
+
+    .dark-mode .navbar-toggler-icon {
+        filter: invert(1);
+        transition: filter 0.3s;
+    }
+
+    .dark-mode .offcanvas {
+        background-color: #212529;
+        color: #fff;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+        .dark-mode .offcanvas .btn-close,
+        .dark-mode .offcanvas .btn-close:focus {
+            filter: brightness(0) invert(1);
+            transition: filter 0.3s;
+        }
+
+    .dark-mode .offcanvas-body a {
+        color: #fff;
+        transition: color 0.3s;
+    }
+
+    .dark-mode .offcanvas-body .btn {
+        border-color: #fff;
+        color: #fff;
+        transition: border-color 0.3s, color 0.3s;
+    }
+
+    .dark-mode .dropdown-menu {
+        background-color: #212529;
+        color: #fff;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+        .dark-mode .dropdown-menu a {
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+            .dark-mode .dropdown-menu a:hover {
+                background-color: #343a40;
+                transition: background-color 0.3s;
+            }
+
+    .dark-mode footer a {
+        color: #fff;
+        transition: color 0.3s;
+    }
