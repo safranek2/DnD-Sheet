@@ -30,5 +30,5 @@ $ npm install
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-David Šafránek - @your_twitter - safranek2@spsejecna.cz
+David Šafránek - safranek2@spsejecna.cz
 Project Link: https://github.com/safranek2/DnD-Sheet
