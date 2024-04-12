@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Short project description goes here.
+DnD Sheet is a web application designed to provide a digital platform for Dungeons & Dragons (DnD) players to create character sheets, access guides. It offers features such as interactive character sheet creator, access to guides for both players and dungeon masters, and a user-friendly interface for enhancing the DnD gaming experience.
 
 ## Table of Contents
 
