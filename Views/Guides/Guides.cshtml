@@ -1,0 +1,53 @@
+﻿@model GroupViewModel
+@using System.IO
+@using System.Linq
+@using System.Text.RegularExpressions
+@using System.Text.Encodings.Web
+
+@{
+    ViewBag.Title = @DnD_Sheet.Resources.Views.Home.Guides.Title;
+}
+
+<h1>@DnD_Sheet.Resources.Views.Home.Guides.Title</h1>
+
+<ul class="list-group">
+    @{
+        var directories = Model.Directories ?? Enumerable.Empty<string>();
+        var files = Model.Files ?? Enumerable.Empty<string>();
+        var allItems = directories.Concat(files);
+        var groupedItems = allItems.GroupBy(item =>
+        {
+            var baseName = @System.IO.Path.GetFileNameWithoutExtension(item);
+            return Regex.Replace(baseName, @"\.([a-z]{2})$", string.Empty, RegexOptions.IgnoreCase);
+        }).OrderBy(group => group.Key);
+
+        foreach (var group in groupedItems)
+        {
+            var itemName = group.Key;
+            var isDirectory = directories.Contains(itemName);
+            var extension = isDirectory ? "" : ".md";
+            var fullPath = @System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Resources", "Guides", itemName + extension);
+            var fileExists = System.IO.File.Exists(fullPath);
+            <li class="list-group-item">
+                @{
+                    if (extension == ".md")
+                    {
+                        <a href="/Guide/@itemName" class="list-group-item list-group-item-action">
+                            <strong>
+                                @DnD_Sheet.Resources.Views.Home.Guides.GetString(itemName)
+                            </strong>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="/Guides/@itemName" class="list-group-item list-group-item-action">
+                            <strong>
+                                @DnD_Sheet.Resources.Views.Home.Guides.GetString(itemName)
+                            </strong>
+                        </a>
+                    }
+                }
+            </li>
+        }
+    }
+</ul>

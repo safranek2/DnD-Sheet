@@ -1,0 +1,47 @@
+﻿@{
+    // Get the parent name from the URL
+    string parentName = null;
+    string[] segments = ViewContext.HttpContext.Request.Path.Value.Split('/');
+
+    // Remove empty segments
+    segments = segments.Where(s => !string.IsNullOrWhiteSpace(s)).ToArray();
+
+    // Get the last segment as the parent name
+    parentName = segments.LastOrDefault();
+
+    ViewData["Title"] = @DnD_Sheet.Resources.Views.Home.Guides.GetString(parentName);
+
+    string htmlContent = ViewData["GuideContent"] as string;
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <ul class="breadcrumb">
+            @for (int i = 0; i < segments.Length; i++)
+            {
+                var segmentPath = "/Guides/" + string.Join("/", segments.Skip(1).Take(i));
+                var segmentText = segments[i];
+                if (i == segments.Length - 1)
+                {
+                    <li class="breadcrumb-item active" aria-current="page">@segmentText</li>
+                }
+                else
+                {
+                    if (i == 0)
+                    {
+                        <li class="breadcrumb-item"><a href="/Guides">@DnD_Sheet.Resources.Views.Home.Guides.GetString("Title")</a></li>
+                    }
+                    else
+                    {
+                        <li class="breadcrumb-item"><a href="@segmentPath">@segmentText</a></li>
+                    }
+                }
+            }
+        </ul>
+    </ol>
+</nav>
+
+@if (!string.IsNullOrEmpty(htmlContent))
+{
+    @Html.Raw(System.Net.WebUtility.HtmlDecode(htmlContent))
+}

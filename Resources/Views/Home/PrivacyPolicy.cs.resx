@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Účet</value>
+  </data>
+  <data name="AdministredByUs" xml:space="preserve">
+    <value>Spravuje: My</value>
+  </data>
+  <data name="BusinessTransactions" xml:space="preserve">
+    <value>Obchodní transakce</value>
+  </data>
+  <data name="ByEmail" xml:space="preserve">
+    <value>E-mailem: safranek2@spsejecna.cz</value>
+  </data>
+  <data name="ChangesToThisPrivacyPolicyDescription" xml:space="preserve">
+    <value>Naše zásady ochrany osobních údajů můžeme čas od času aktualizovat. O všech změnách vás budeme informovat zveřejněním nových Zásad ochrany osobních údajů na této stránce.</value>
+  </data>
+  <data name="ChangesToThisPrivacyPolicyDescription3" xml:space="preserve">
+    <value>Doporučujeme vám pravidelně kontrolovat tyto zásady ochrany osobních údajů a zjišťovat případné změny. Změny těchto Zásad ochrany osobních údajů jsou účinné od okamžiku jejich zveřejnění na této stránce.</value>
+  </data>
+  <data name="ChildrensPrivacyDescription" xml:space="preserve">
+    <value>Naše služba není určena osobám mladším 13 let. Vědomě neshromažďujeme osobní údaje od osob mladších 13 let. Pokud jste rodič nebo opatrovník a jste si vědomi, že nám vaše dítě poskytlo osobní údaje, kontaktujte nás. Pokud zjistíme, že jsme shromáždili Osobní údaje od osoby mladší 13 let bez ověření souhlasu rodičů, podnikneme kroky k odstranění těchto údajů z Našich serverů.</value>
+  </data>
+  <data name="ChildrensPrivacyDescription2" xml:space="preserve">
+    <value>Pokud se musíme spoléhat na souhlas jako na právní základ pro zpracování vašich informací a vaše země vyžaduje souhlas rodiče, můžeme před shromažďováním a používáním těchto informací vyžadovat souhlas vašeho rodiče.</value>
+  </data>
+  <data name="CompanyDescription" xml:space="preserve">
+    <value>(v této smlouvě označovaná jako "Společnost", "My", "My" nebo "Naše") se vztahuje na DnD Sheet.</value>
+  </data>
+  <data name="CompanyUsePersonalData" xml:space="preserve">
+    <value>Společnost může používat osobní údaje pro následující účely:</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Kontaktujte nás</value>
+  </data>
+  <data name="CookiesDescription" xml:space="preserve">
+    <value>jsou malé soubory, které webová stránka umístí do vašeho počítače, mobilního zařízení nebo jakéhokoli jiného zařízení a které mimo jiné obsahují podrobnosti o vaší historii procházení na této webové stránce.</value>
+  </data>
+  <data name="CookiesOrBrowserCookies" xml:space="preserve">
+    <value>Soubory cookie nebo soubory cookie prohlížeče.</value>
+  </data>
+  <data name="CookiesPolicyNoticeAcceptanceCookies" xml:space="preserve">
+    <value>Zásady používání souborů cookie / Oznámení o přijetí souborů cookie</value>
+  </data>
+  <data name="CountryDescription" xml:space="preserve">
+    <value>se týká:  Česká republika</value>
+  </data>
+  <data name="Definitions" xml:space="preserve">
+    <value>Definice</value>
+  </data>
+  <data name="DeleteYourPersonalDataDescription" xml:space="preserve">
+    <value>Máte právo vymazat nebo požádat, abychom vám pomohli s odstraněním osobních údajů, které jsme o vás shromáždili.</value>
+  </data>
+  <data name="DeleteYourPersonalDataDescription4" xml:space="preserve">
+    <value>Upozorňujeme však, že je možné, že budeme muset uchovávat určité informace, pokud k tomu máme zákonnou povinnost nebo zákonný základ.</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Zařízení</value>
+  </data>
+  <data name="DisclosureOfYourPersonalData" xml:space="preserve">
+    <value>Zveřejnění vašich osobních údajů</value>
+  </data>
+  <data name="ForBusinessTransfersDescription2" xml:space="preserve">
+    <value>Vaše osobní údaje můžeme sdílet nebo převádět v souvislosti s jakoukoli fúzí, prodejem majetku společnosti, financováním nebo akvizicí celého našeho podniku nebo jeho části jiné společnosti nebo během jednání o nich.</value>
+  </data>
+  <data name="ForOtherPurposes" xml:space="preserve">
+    <value>Pro jiné účely:</value>
+  </data>
+  <data name="FunctionalityCookies" xml:space="preserve">
+    <value>Funkční soubory cookie</value>
+  </data>
+  <data name="InterpretationAndDefinitions" xml:space="preserve">
+    <value>Výklad a definice</value>
+  </data>
+  <data name="LastUpdated" xml:space="preserve">
+    <value>Poslední aktualizace: 6. března 2024</value>
+  </data>
+  <data name="LawEnforcementDescription" xml:space="preserve">
+    <value>Za určitých okolností může být společnost povinna zveřejnit vaše osobní údaje, pokud to vyžaduje zákon nebo v reakci na platné žádosti orgánů veřejné moci (např. soudu nebo vládní agentury).</value>
+  </data>
+  <data name="LinksToOtherWebsitesDescription" xml:space="preserve">
+    <value>Naše služba může obsahovat odkazy na jiné webové stránky, které neprovozujeme. Pokud kliknete na odkaz třetí strany, budete přesměrováni na stránky této třetí strany. Důrazně doporučujeme, abyste si přečetli zásady ochrany osobních údajů každé stránky, kterou navštívíte.</value>
+  </data>
+  <data name="MoreInformationAboutCookies" xml:space="preserve">
+    <value>Další informace o souborech cookie, které používáme, a o vašich volbách týkajících se souborů cookie naleznete v našich Zásadách používání souborů cookie nebo v části Soubory cookie v našich Zásadách ochrany osobních údajů.</value>
+  </data>
+  <data name="OtherLegalRequirements" xml:space="preserve">
+    <value>Další zákonné požadavky</value>
+  </data>
+  <data name="OtherLegalRequirementsDescription" xml:space="preserve">
+    <value>Společnost může zveřejnit vaše osobní údaje v dobré víře, že taková akce je nezbytná pro:</value>
+  </data>
+  <data name="OtherLegalRequirementsDescription3" xml:space="preserve">
+    <value>Ochrana a obrana práv nebo majetku společnosti</value>
+  </data>
+  <data name="OtherLegalRequirementsDescription6" xml:space="preserve">
+    <value>Ochrana před právní odpovědností</value>
+  </data>
+  <data name="PerformanceOfAContract" xml:space="preserve">
+    <value>Pro plnění smlouvy:</value>
+  </data>
+  <data name="PerformanceOfAContractDescription" xml:space="preserve">
+    <value>vypracování, dodržování a plnění kupní smlouvy na produkty, položky nebo služby, které jste si zakoupili, nebo jakékoli jiné smlouvy s námi prostřednictvím služby.</value>
+  </data>
+  <data name="PersonalDataDescription2" xml:space="preserve">
+    <value>Při používání naší služby vás můžeme požádat, abyste nám poskytli určité osobní údaje, které lze použít k tomu, abychom vás kontaktovali nebo identifikovali. Osobně identifikovatelné informace mohou mimo jiné zahrnovat:</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Zásady ochrany osobních údajů</value>
+  </data>
+  <data name="PrivacyPolicyPurposes" xml:space="preserve">
+    <value>Pro účely těchto Zásad ochrany osobních údajů:</value>
+  </data>
+  <data name="RetentionOfYourPersonalDataDescription" xml:space="preserve">
+    <value>Společnost bude uchovávat vaše osobní údaje pouze po dobu nezbytně nutnou pro účely stanovené v těchto zásadách ochrany osobních údajů. Vaše osobní údaje budeme uchovávat a používat v rozsahu nezbytném pro splnění našich zákonných povinností (například pokud jsme povinni uchovávat vaše údaje v souladu s platnými zákony), řešení sporů a prosazování našich právních dohod a zásad.</value>
+  </data>
+  <data name="RetentionOfYourPersonalDataDescription2" xml:space="preserve">
+    <value>Společnost bude také uchovávat údaje o používání pro účely interní analýzy. Údaje o používání jsou obecně uchovávány po kratší dobu, s výjimkou případů, kdy jsou tyto údaje použity k posílení zabezpečení nebo ke zlepšení funkčnosti naší služby, nebo pokud jsme ze zákona povinni uchovávat tyto údaje po delší dobu.</value>
+  </data>
+  <data name="SecurityOfYourPersonalDataDescription" xml:space="preserve">
+    <value>Bezpečnost vašich osobních údajů je pro nás důležitá, ale nezapomeňte, že žádný způsob přenosu přes internet nebo způsob elektronického ukládání není 100% bezpečný. I když se snažíme používat komerčně přijatelné prostředky k ochraně vašich osobních údajů, nemůžeme zaručit jejich absolutní bezpečnost.</value>
+  </data>
+  <data name="ServiceDescription" xml:space="preserve">
+    <value>odkazuje na webové stránky.</value>
+  </data>
+  <data name="SessionAndPersistentCookiesPurposes" xml:space="preserve">
+    <value>Používáme jak relační, tak trvalé soubory cookie pro níže uvedené účely:</value>
+  </data>
+  <data name="ToContactYouDescription" xml:space="preserve">
+    <value>Abychom vás mohli kontaktovat e-mailem, telefonními hovory, SMS nebo jinými ekvivalentními formami elektronické komunikace, jako jsou push notifikace mobilní aplikace týkající se aktualizací nebo informativní komunikace týkající se funkcí, produktů nebo smluvních služeb, včetně aktualizací zabezpečení, pokud je to nezbytné nebo přiměřené pro jejich implementaci.</value>
+  </data>
+  <data name="ToManageYourAccountDescription" xml:space="preserve">
+    <value>ke správě vaší registrace jako uživatele služby. Osobní údaje, které poskytnete, vám mohou poskytnout přístup k různým funkcím služby, které máte jako registrovaný uživatel k dispozici.</value>
+  </data>
+  <data name="ToManageYourRequestsDescription" xml:space="preserve">
+    <value>Účastnit se a spravovat vaše požadavky na nás.</value>
+  </data>
+  <data name="ToProvideYouDescription" xml:space="preserve">
+    <value>s novinkami, speciálními nabídkami a obecnými informacemi o dalším zboží, službách a událostech, které nabízíme a které jsou podobné těm, které jste si již zakoupili nebo na které jste se dotazovali, pokud jste se nerozhodli takové informace nedostávat.</value>
+  </data>
+  <data name="TrackingTechnologiesandCookiesDescription" xml:space="preserve">
+    <value>Soubory cookie a podobné sledovací technologie používáme ke sledování aktivity v naší službě a ukládání určitých informací. Používané sledovací technologie jsou majáky, značky a skripty ke shromažďování a sledování informací a ke zlepšování a analýze naší služby. Technologie, které používáme, mohou zahrnovat:</value>
+  </data>
+  <data name="TransferOfYourPersonalData" xml:space="preserve">
+    <value>Přenos vašich osobních údajů</value>
+  </data>
+  <data name="TransferOfYourPersonalDataDescription3" xml:space="preserve">
+    <value>Společnost podnikne veškeré přiměřeně nezbytné kroky, aby zajistila, že s vašimi údaji bude zacházeno bezpečně a v souladu s těmito zásadami ochrany osobních údajů, a nedojde k žádnému přenosu vašich osobních údajů do organizace nebo země, pokud nebudou zavedeny odpovídající kontroly, včetně zabezpečení vašich údajů a dalších osobních údajů.</value>
+  </data>
+  <data name="TypePersistentCookie" xml:space="preserve">
+    <value>Typ: Trvalé soubory cookie</value>
+  </data>
+  <data name="TypePersistentCookiePurpose2" xml:space="preserve">
+    <value>Účel: Tyto soubory cookie nám umožňují zapamatovat si volby, které učiníte při používání webových stránek, jako je zapamatování vašich přihlašovacích údajů nebo jazykových preferencí. Účelem těchto souborů cookie je poskytnout vám osobnější zážitek a vyhnout se tomu, abyste museli znovu zadávat své preference při každém použití webových stránek.</value>
+  </data>
+  <data name="UsageData" xml:space="preserve">
+    <value>Údaje o používání</value>
+  </data>
+  <data name="UsageDataDescription2" xml:space="preserve">
+    <value>Údaje o používání se shromažďují automaticky při používání služby.</value>
+  </data>
+  <data name="UsageDataDescription3" xml:space="preserve">
+    <value>Údaje o používání mohou zahrnovat informace, jako je adresa internetového protokolu vašeho zařízení (např. IP adresa), typ prohlížeče, verze prohlížeče, stránky naší služby, které navštívíte, čas a datum vaší návštěvy, čas strávený na těchto stránkách, jedinečné identifikátory zařízení a další diagnostická data.</value>
+  </data>
+  <data name="UseOfYourPersonalData" xml:space="preserve">
+    <value>Použití vašich osobních údajů</value>
+  </data>
+  <data name="WebBeacons" xml:space="preserve">
+    <value>Webové majáky.</value>
+  </data>
+  <data name="WebsiteDescription" xml:space="preserve">
+    <value>odkazuje na DnD Sheet, přístupný z</value>
+  </data>
+  <data name="WeMayShareYourPersonalInformation" xml:space="preserve">
+    <value>Vaše osobní údaje můžeme sdílet v následujících situacích:</value>
+  </data>
+  <data name="WithAffiliatesDescription" xml:space="preserve">
+    <value>Vaše údaje můžeme sdílet s našimi přidruženými společnostmi, v takovém případě budeme vyžadovat, aby tyto přidružené společnosti dodržovaly tyto zásady ochrany osobních údajů. Přidružené společnosti zahrnují naši mateřskou společnost a jakékoli další dceřiné společnosti, partnery ve společných podnicích nebo jiné společnosti, které ovládáme nebo které jsou s námi pod společnou kontrolou.</value>
+  </data>
+  <data name="WithBusinessPartners" xml:space="preserve">
+    <value>S obchodními partnery:</value>
+  </data>
+  <data name="WithOtherUsers" xml:space="preserve">
+    <value>S ostatními uživateli:</value>
+  </data>
+  <data name="WithServiceProviders" xml:space="preserve">
+    <value>S poskytovateli služeb:</value>
+  </data>
+  <data name="WithYourConsentDescription" xml:space="preserve">
+    <value>S vaším souhlasem můžeme vaše osobní údaje zveřejnit pro jakýkoli jiný účel.</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>Ty</value>
+  </data>
+  <data name="AccountDescription" xml:space="preserve">
+    <value>znamená jedinečný účet vytvořený pro vás za účelem přístupu k naší službě nebo jejím částem.</value>
+  </data>
+  <data name="Affiliate" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="AffiliateDescription" xml:space="preserve">
+    <value>znamená subjekt, který ovládá stranu, je jí ovládán nebo je s ní pod společnou kontrolou, přičemž "kontrolou" se rozumí vlastnictví 50 % nebo více akcií, majetkových podílů nebo jiných cenných papírů s právem hlasovat při volbě ředitelů nebo jiných řídících orgánů.</value>
+  </data>
+  <data name="BusinessTransactionsDescription" xml:space="preserve">
+    <value>Pokud se společnost účastní fúze, akvizice nebo prodeje majetku, mohou být vaše osobní údaje předány. Předtím, než budou vaše osobní údaje převedeny a začnou se na ně vztahovat jiné zásady ochrany osobních údajů, vás na to upozorníme.</value>
+  </data>
+  <data name="ChangesToThisPrivacyPolicy" xml:space="preserve">
+    <value>Změny těchto zásad ochrany osobních údajů</value>
+  </data>
+  <data name="ChangesToThisPrivacyPolicyDescription2" xml:space="preserve">
+    <value>Předtím, než změna vstoupí v platnost, vás o tom budeme informovat e-mailem a/nebo viditelným oznámením na našich službách a aktualizujeme datum "Poslední aktualizace" v horní části těchto Zásad ochrany osobních údajů.</value>
+  </data>
+  <data name="ChildrensPrivacy" xml:space="preserve">
+    <value>Soukromí dětí</value>
+  </data>
+  <data name="CollectingAndUsingYourPersonalData" xml:space="preserve">
+    <value>Shromažďování a používání vašich osobních údajů</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Společnost</value>
+  </data>
+  <data name="CompanyUsePersonalDataDescription" xml:space="preserve">
+    <value>Poskytování a údržba našich služeb</value>
+  </data>
+  <data name="CompanyUsePersonalDataDescription2" xml:space="preserve">
+    <value>, včetně sledování využívání naší služby.</value>
+  </data>
+  <data name="ContactUsDescription" xml:space="preserve">
+    <value>Máte-li jakékoli dotazy týkající se těchto zásad ochrany osobních údajů, můžete nás kontaktovat:</value>
+  </data>
+  <data name="CookiesDescription2" xml:space="preserve">
+    <value>Soubory cookie mohou být "trvalé" nebo "relační". Trvalé soubory cookie zůstávají ve Vašem osobním počítači nebo mobilním zařízení, když přejdete do režimu offline, zatímco relační soubory cookie se vymažou, jakmile zavřete svůj webový prohlížeč. Více informací o souborech cookie se dozvíte na</value>
+  </data>
+  <data name="CookiesOrBrowserCookiesDescription" xml:space="preserve">
+    <value>Soubor cookie je malý soubor umístěný ve vašem zařízení. Svému prohlížeči můžete dát pokyn, aby odmítl všechny soubory cookie nebo aby upozornil na odesílání souborů cookie. Pokud však soubory cookie nepřijmete, je možné, že nebudete moci používat některé části naší služby. Pokud jste neupravili nastavení svého prohlížeče tak, aby soubory cookie odmítal, může naše Služba soubory cookie používat.</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Země</value>
+  </data>
+  <data name="DeleteYourPersonalData" xml:space="preserve">
+    <value>Odstranění osobních údajů</value>
+  </data>
+  <data name="DeleteYourPersonalDataDescription2" xml:space="preserve">
+    <value>Naše služba vám může umožnit vymazat určité informace o vás v rámci služby.</value>
+  </data>
+  <data name="DeleteYourPersonalDataDescription3" xml:space="preserve">
+    <value>Své údaje můžete kdykoli aktualizovat, změnit nebo vymazat přihlášením ke svému účtu, pokud jej máte, a návštěvou části nastavení účtu, která vám umožňuje spravovat vaše osobní údaje. Můžete nás také kontaktovat a požádat o přístup k osobním údajům, které jste nám poskytli, opravit je nebo odstranit.</value>
+  </data>
+  <data name="DeviceDescription" xml:space="preserve">
+    <value>znamená jakékoli zařízení, které má přístup ke službě, například počítač, mobilní telefon nebo digitální tablet.</value>
+  </data>
+  <data name="ForBusinessTransfers" xml:space="preserve">
+    <value>Pro podnikové převody:</value>
+  </data>
+  <data name="ForBusinessTransfersDescription" xml:space="preserve">
+    <value>Vaše údaje můžeme použít k vyhodnocení nebo provedení fúze, prodeje, restrukturalizace, reorganizace, rozpuštění nebo jiného prodeje či převodu některých nebo všech našich aktiv, ať už jako fungujícího podniku nebo v rámci konkurzu, likvidace nebo podobného řízení, v němž jsou mezi převáděnými aktivy i námi uchovávané osobní údaje o uživatelích našich služeb.</value>
+  </data>
+  <data name="ForOtherPurposesDescription" xml:space="preserve">
+    <value>Vaše údaje můžeme použít k dalším účelům, jako je analýza dat, zjišťování trendů používání, určování účinnosti našich propagačních kampaní a vyhodnocování a zlepšování našich služeb, produktů, služeb, marketingu a vašich zkušeností.</value>
+  </data>
+  <data name="Interpretation" xml:space="preserve">
+    <value>Výklad</value>
+  </data>
+  <data name="InterpretationDescription" xml:space="preserve">
+    <value>Slova, jejichž počáteční písmeno je psáno velkým písmenem, mají význam definovaný za následujících podmínek. Následující definice mají stejný význam bez ohledu na to, zda jsou uvedeny v jednotném nebo množném čísle.</value>
+  </data>
+  <data name="LawEnforcement" xml:space="preserve">
+    <value>Vymáhání práva</value>
+  </data>
+  <data name="LinksToOtherWebsites" xml:space="preserve">
+    <value>Odkazy na další webové stránky</value>
+  </data>
+  <data name="LinksToOtherWebsitesDescription2" xml:space="preserve">
+    <value>Nemáme žádnou kontrolu nad obsahem, zásadami ochrany osobních údajů nebo postupy jakýchkoli stránek nebo služeb třetích stran a neneseme za ně žádnou odpovědnost.</value>
+  </data>
+  <data name="NecessaryEssentialCookies" xml:space="preserve">
+    <value>Nezbytné / nezbytné soubory cookie</value>
+  </data>
+  <data name="NecessaryEssentialCookiesPurpose" xml:space="preserve">
+    <value>Účel: Tyto soubory cookie jsou nezbytné k tomu, aby vám mohly být poskytovány služby dostupné prostřednictvím webových stránek a abyste mohli využívat některé jejich funkce. Pomáhají ověřovat uživatele a zabraňují podvodnému používání uživatelských účtů. Bez těchto souborů cookie nelze poskytovat služby, o které jste požádali, a my tyto soubory cookie používáme pouze k tomu, abychom vám tyto služby mohli poskytovat.</value>
+  </data>
+  <data name="OtherLegalRequirementsDescription2" xml:space="preserve">
+    <value>Splnění zákonné povinnosti</value>
+  </data>
+  <data name="OtherLegalRequirementsDescription4" xml:space="preserve">
+    <value>Zabránit nebo vyšetřit možné protiprávní jednání v souvislosti se službou</value>
+  </data>
+  <data name="OtherLegalRequirementsDescription5" xml:space="preserve">
+    <value>Chránit osobní bezpečnost uživatelů služby nebo veřejnosti</value>
+  </data>
+  <data name="PersonalData" xml:space="preserve">
+    <value>Osobní údaje</value>
+  </data>
+  <data name="PersonalDataDescription" xml:space="preserve">
+    <value>jsou veškeré informace, které se týkají identifikované nebo identifikovatelné osoby.</value>
+  </data>
+  <data name="PrivacyPolicyDescription" xml:space="preserve">
+    <value>Tyto Zásady ochrany osobních údajů popisují naše zásady a postupy týkající se shromažďování, používání a zveřejňování vašich údajů při používání Služby a informují vás o vašich právech na ochranu osobních údajů a o tom, jak vás chrání zákon.</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Zásady ochrany osobních údajů</value>
+  </data>
+  <data name="RetentionOfYourPersonalData" xml:space="preserve">
+    <value>Uchovávání vašich osobních údajů</value>
+  </data>
+  <data name="SecurityOfYourPersonalData" xml:space="preserve">
+    <value>Zabezpečení vašich osobních údajů</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Služba</value>
+  </data>
+  <data name="ServiceProvider" xml:space="preserve">
+    <value>Poskytovatel služeb</value>
+  </data>
+  <data name="ServiceProviderDescription" xml:space="preserve">
+    <value>znamená jakoukoli fyzickou nebo právnickou osobu, která zpracovává údaje jménem společnosti. Jedná se o společnosti nebo fyzické osoby třetích stran, které Společnost zaměstnává za účelem usnadnění Služby, poskytování Služby jménem Společnosti, provádění služeb souvisejících se Službou nebo pomoci Společnosti při analýze způsobu využívání Služby.</value>
+  </data>
+  <data name="ToContactYou" xml:space="preserve">
+    <value>Kontaktovat vás:</value>
+  </data>
+  <data name="ToManageYourAccount" xml:space="preserve">
+    <value>Správa vašeho účtu:</value>
+  </data>
+  <data name="ToManageYourRequests" xml:space="preserve">
+    <value>Spravovat vaše požadavky:</value>
+  </data>
+  <data name="ToProvideYou" xml:space="preserve">
+    <value>Poskytnout vám</value>
+  </data>
+  <data name="TrackingTechnologiesandCookies" xml:space="preserve">
+    <value>Sledovací technologie a soubory cookie</value>
+  </data>
+  <data name="TransferOfYourPersonalDataDescription" xml:space="preserve">
+    <value>Vaše informace, včetně osobních údajů, jsou zpracovávány v provozních kancelářích společnosti a na dalších místech, kde se nacházejí strany zapojené do zpracování. To znamená, že tyto informace mohou být přenášeny do počítačů - a uchovávány v počítačích - umístěných mimo Váš stát, provincii, zemi nebo jinou vládní jurisdikci, kde se zákony na ochranu údajů mohou lišit od zákonů Vaší jurisdikce.</value>
+  </data>
+  <data name="TransferOfYourPersonalDataDescription2" xml:space="preserve">
+    <value>Váš souhlas s těmito Zásadami ochrany osobních údajů, po kterém následuje odeslání takových informací, představuje váš souhlas s tímto přenosem.</value>
+  </data>
+  <data name="TypePersistentCookiePurpose" xml:space="preserve">
+    <value>Účel: Tyto soubory cookie identifikují, zda uživatelé souhlasili s používáním souborů cookie na webových stránkách.</value>
+  </data>
+  <data name="TypeSessionCookie" xml:space="preserve">
+    <value>Typ: Soubory cookie relace</value>
+  </data>
+  <data name="TypesofDataCollected" xml:space="preserve">
+    <value>Typy shromažďovaných údajů</value>
+  </data>
+  <data name="UsageDataDescription" xml:space="preserve">
+    <value>se týká automaticky shromažďovaných údajů, které jsou generovány buď používáním služby, nebo samotnou infrastrukturou služby (například doba trvání návštěvy stránky).</value>
+  </data>
+  <data name="UsageDataDescription4" xml:space="preserve">
+    <value>Když přistupujete ke Službě prostřednictvím mobilního zařízení nebo přes mobilní zařízení, můžeme automaticky shromažďovat určité informace, mimo jiné typ mobilního zařízení, které používáte, jedinečné ID vašeho mobilního zařízení, IP adresu vašeho mobilního zařízení, váš mobilní operační systém, typ mobilního internetového prohlížeče, který používáte, jedinečné identifikátory zařízení a další diagnostické údaje.</value>
+  </data>
+  <data name="UsageDataDescription5" xml:space="preserve">
+    <value>Můžeme také shromažďovat informace, které váš prohlížeč odešle, kdykoli navštívíte naši službu nebo když ke službě přistupujete prostřednictvím mobilního zařízení.</value>
+  </data>
+  <data name="WebBeaconsDescription" xml:space="preserve">
+    <value>Některé části naší služby a naše e-maily mohou obsahovat malé elektronické soubory známé jako webové signály (označované také jako clear gifs, pixelové značky a jednopixelové gify), které společnosti umožňují například počítat uživatele, kteří navštívili tyto stránky nebo otevřeli e-mail, a další související statistiky webových stránek (například zaznamenávání popularity určité části a ověřování integrity systému a serveru).</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Webov8 stránka</value>
+  </data>
+  <data name="WeUseYourPersonalData" xml:space="preserve">
+    <value>Vaše osobní údaje používáme k poskytování a zlepšování Služby. Používáním Služby souhlasíte se shromažďováním a používáním informací v souladu s těmito Zásadami ochrany osobních údajů. Tyto Zásady ochrany osobních údajů byly vytvořeny s pomocí</value>
+  </data>
+  <data name="WithAffiliates" xml:space="preserve">
+    <value>S přidruženými společnostmi:</value>
+  </data>
+  <data name="WithBusinessPartnersDescription" xml:space="preserve">
+    <value>Vaše údaje můžeme sdílet s našimi obchodními partnery, abychom vám mohli nabídnout určité produkty, služby nebo propagační akce.</value>
+  </data>
+  <data name="WithOtherUsersDescription" xml:space="preserve">
+    <value>pokud sdílíte osobní údaje nebo jinak komunikujete ve veřejných oblastech s ostatními uživateli, mohou tyto informace vidět všichni uživatelé a mohou být veřejně šířeny venku.</value>
+  </data>
+  <data name="WithServiceProvidersDescription" xml:space="preserve">
+    <value>Vaše osobní údaje můžeme sdílet s poskytovateli služeb za účelem monitorování a analýzy používání naší služby, abychom vás mohli kontaktovat.</value>
+  </data>
+  <data name="WithYourConsent" xml:space="preserve">
+    <value>S vaším souhlasem:</value>
+  </data>
+  <data name="YouDescription" xml:space="preserve">
+    <value>znamená jednotlivce, který přistupuje ke službě nebo ji používá, případně společnost nebo jiný právní subjekt, jehož jménem takový jednotlivec přistupuje ke službě nebo ji používá.</value>
+  </data>
+  <data name="Cookies" xml:space="preserve">
+    <value>Soubory cookie</value>
+  </data>
+  <data name="PrivacyPolicyGenerator" xml:space="preserve">
+    <value>Privacy Policy Generator</value>
+  </data>
+  <data name="CookiesDescription3" xml:space="preserve">
+    <value>článek.</value>
+  </data>
+  <data name="TermsFeedWebsite" xml:space="preserve">
+    <value>webové stránky TermsFeed</value>
+  </data>
+  <data name="WebsiteURL" xml:space="preserve">
+    <value>www.example.com</value>
+  </data>
+</root>

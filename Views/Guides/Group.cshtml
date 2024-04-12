@@ -1,0 +1,89 @@
+﻿@model GroupViewModel
+@using System.Linq
+@using System.Text.RegularExpressions
+@using System.Text.Encodings.Web
+
+@{
+    // Get the parent name from the URL
+    string parentName = null;
+    string[] segments = ViewContext.HttpContext.Request.Path.Value.Split('/');
+
+    // Remove empty segments
+    segments = segments.Where(s => !string.IsNullOrWhiteSpace(s)).ToArray();
+
+    // Get the last segment as the parent name
+    parentName = segments.LastOrDefault();
+
+    ViewData["Title"] = @DnD_Sheet.Resources.Views.Home.Guides.GetString(parentName);
+}
+
+<nav style="--bs-breadcrumb-divider-color: #FF0" aria-label=" breadcrumb">
+    <ol class="breadcrumb">
+        @{
+            for (int i = 0; i < segments.Length; i++)
+            {
+                var segmentPath = string.Join("/", segments.Take(i + 1));
+                var segmentText = segments[i];
+                if (i == segments.Length - 1)
+                {
+                    <li class="breadcrumb-item active" aria-current="page">@DnD_Sheet.Resources.Views.Home.Guides.GetString(segmentText)</li>
+                }
+                else
+                {
+                    if (i == 0)
+                    {
+                        <li class="breadcrumb-item"><a href="/Guides">@DnD_Sheet.Resources.Views.Home.Guides.GetString("Title")</a></li>
+                    }
+                    else
+                    {
+                        <li class="breadcrumb-item"><a href="/@segmentPath">@DnD_Sheet.Resources.Views.Home.Guides.GetString(segmentText)</a></li>
+                    }
+                }
+            }
+        }
+    </ol>
+</nav>
+
+<h1>@ViewData["Title"]</h1>
+
+<ul class="list-group">
+    @{
+        var directories = Model.Directories ?? Enumerable.Empty<string>();
+        var files = Model.Files ?? Enumerable.Empty<string>();
+
+        var allItems = directories.Concat(files);
+
+        var groupedItems = allItems.GroupBy(item =>
+        {
+            var baseName = System.IO.Path.GetFileNameWithoutExtension(item);
+            return Regex.Replace(baseName, @"\.([a-z]{2})$", string.Empty, RegexOptions.IgnoreCase);
+        }).OrderBy(group => group.Key);
+
+        foreach (var group in groupedItems)
+        {
+            var itemName = group.Key;
+            var isDirectory = directories.Contains(itemName);
+            var extension = isDirectory ? "" : ".md";
+
+            var folderPath = string.Join("/", segments.Skip(1));
+            var fullPath = @System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Resources", "Guides", $"{folderPath}/{itemName}{extension}");
+            var fileExists = System.IO.File.Exists(fullPath);
+            <li class="list-group-item">
+                @{
+                    string path = string.Empty;
+                    folderPath = string.Join("/", segments.Skip(1));
+                    if (extension == ".md")
+                    {
+                        path = $"/Guide";
+                    }
+                    else
+                    {
+                        path = $"/Guides";
+                    }
+                    path += $"/{folderPath}/{itemName}";
+                }
+                <a href="@path" class="list-group-item list-group-item-action"><strong>@DnD_Sheet.Resources.Views.Home.Guides.GetString(itemName)</strong></a>
+            </li>
+        }
+    }
+</ul>
