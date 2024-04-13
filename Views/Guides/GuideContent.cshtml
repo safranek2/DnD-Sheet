@@ -9,7 +9,7 @@
     // Get the last segment as the parent name
     parentName = segments.LastOrDefault();
 
-    ViewData["Title"] = @DnD_Sheet.Resources.Views.Home.Guides.GetString(parentName);
+    ViewData["Title"] = @DnD_Sheet.Resources.Views.Guides.Guides.GetString(parentName);
 
     string htmlContent = ViewData["GuideContent"] as string;
 }
@@ -29,7 +29,7 @@
                 {
                     if (i == 0)
                     {
-                        <li class="breadcrumb-item"><a href="/Guides">@DnD_Sheet.Resources.Views.Home.Guides.GetString("Title")</a></li>
+                        <li class="breadcrumb-item"><a href="/Guides">@DnD_Sheet.Resources.Views.Guides.Guides.GetString("Title")</a></li>
                     }
                     else
                     {

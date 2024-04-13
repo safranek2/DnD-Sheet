@@ -5,10 +5,10 @@
 @using System.Text.Encodings.Web
 
 @{
-    ViewBag.Title = @DnD_Sheet.Resources.Views.Home.Guides.Title;
+    ViewBag.Title = @DnD_Sheet.Resources.Views.Guides.Guides.Title;
 }
 
-<h1>@DnD_Sheet.Resources.Views.Home.Guides.Title</h1>
+<h1>@DnD_Sheet.Resources.Views.Guides.Guides.Title</h1>
 
 <ul class="list-group">
     @{
@@ -34,7 +34,7 @@
                     {
                         <a href="/Guide/@itemName" class="list-group-item list-group-item-action">
                             <strong>
-                                @DnD_Sheet.Resources.Views.Home.Guides.GetString(itemName)
+                                @DnD_Sheet.Resources.Views.Guides.Guides.GetString(itemName)
                             </strong>
                         </a>
                     }
@@ -42,7 +42,7 @@
                     {
                         <a href="/Guides/@itemName" class="list-group-item list-group-item-action">
                             <strong>
-                                @DnD_Sheet.Resources.Views.Home.Guides.GetString(itemName)
+                                @DnD_Sheet.Resources.Views.Guides.Guides.GetString(itemName)
                             </strong>
                         </a>
                     }

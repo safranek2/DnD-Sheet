@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\Views\Home\Guides.resx">
+    <EmbeddedResource Update="Resources\Views\Guides\Guides.resx">
       <Generator></Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\Views\Home\Index.cs.resx">

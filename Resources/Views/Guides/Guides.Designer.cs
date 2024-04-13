@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DnD_Sheet.Resources.Views.Home {
+namespace DnD_Sheet.Resources.Views.Guides {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DnD_Sheet.Resources.Views.Home {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DnD_Sheet.Resources.Views.Home.Guides", typeof(Guides).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DnD_Sheet.Resources.Views.Guides.Guides", typeof(Guides).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Adult black dragon.
+        ///   Looks up a localized string similar to Adult Black Dragon.
         /// </summary>
         public static string AdultBlackDragon {
             get {
@@ -70,7 +70,7 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Adult blue dragon.
+        ///   Looks up a localized string similar to Adult Blue Dragon.
         /// </summary>
         public static string AdultBlueDragon {
             get {
@@ -79,7 +79,7 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Adult brass dragon.
+        ///   Looks up a localized string similar to Adult Brass Dragon.
         /// </summary>
         public static string AdultBrassDragon {
             get {
@@ -88,7 +88,7 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Adult silver dragon.
+        ///   Looks up a localized string similar to Adult Silver Dragon.
         /// </summary>
         public static string AdultSilverDragon {
             get {
@@ -97,7 +97,7 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Awakened shrub.
+        ///   Looks up a localized string similar to Awakened Shrub.
         /// </summary>
         public static string AwakenedShrub {
             get {
@@ -106,11 +106,56 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Awakened tree.
+        ///   Looks up a localized string similar to Awakened Tree.
         /// </summary>
         public static string AwakenedTree {
             get {
                 return ResourceManager.GetString("AwakenedTree", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bestiary.
+        /// </summary>
+        public static string Bestiary {
+            get {
+                return ResourceManager.GetString("Bestiary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chromatic.
+        /// </summary>
+        public static string Chromatic {
+            get {
+                return ResourceManager.GetString("Chromatic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Classes.
+        /// </summary>
+        public static string Classes {
+            get {
+                return ResourceManager.GetString("Classes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dungeons &amp; Dragons Quick Start Guide.
+        /// </summary>
+        public static string DnDQuickGuide {
+            get {
+                return ResourceManager.GetString("DnDQuickGuide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dragons.
+        /// </summary>
+        public static string Dragons {
+            get {
+                return ResourceManager.GetString("Dragons", resourceCulture);
             }
         }
         
@@ -133,20 +178,56 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to How to play?.
-        /// </summary>
-        public static string HowToPlay {
-            get {
-                return ResourceManager.GetString("HowToPlay", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Human.
         /// </summary>
         public static string Human {
             get {
                 return ResourceManager.GetString("Human", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Metalic.
+        /// </summary>
+        public static string Metalic {
+            get {
+                return ResourceManager.GetString("Metalic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Plants.
+        /// </summary>
+        public static string Plants {
+            get {
+                return ResourceManager.GetString("Plants", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hráč.
+        /// </summary>
+        public static string Player {
+            get {
+                return ResourceManager.GetString("Player", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rasy.
+        /// </summary>
+        public static string Races {
+            get {
+                return ResourceManager.GetString("Races", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Guides.
+        /// </summary>
+        public static string Title {
+            get {
+                return ResourceManager.GetString("Title", resourceCulture);
             }
         }
         
@@ -160,22 +241,11 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to Title.
-        /// </summary>
-        public static string Title
-        {
-            get
-            {
-                return ResourceManager.GetString("Title", resourceCulture);
-            }
-        }
-
-        /// <summary>
         ///   Looks up a localized string similar to key.
         /// </summary>
         public static string GetString(string key)
         {
-             return ResourceManager.GetString(key, resourceCulture);
+            return ResourceManager.GetString(key, resourceCulture);
         }
     }
 }

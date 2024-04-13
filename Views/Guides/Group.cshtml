@@ -14,7 +14,7 @@
     // Get the last segment as the parent name
     parentName = segments.LastOrDefault();
 
-    ViewData["Title"] = @DnD_Sheet.Resources.Views.Home.Guides.GetString(parentName);
+    ViewData["Title"] = @DnD_Sheet.Resources.Views.Guides.Guides.GetString(parentName);
 }
 
 <nav style="--bs-breadcrumb-divider-color: #FF0" aria-label=" breadcrumb">
@@ -26,17 +26,17 @@
                 var segmentText = segments[i];
                 if (i == segments.Length - 1)
                 {
-                    <li class="breadcrumb-item active" aria-current="page">@DnD_Sheet.Resources.Views.Home.Guides.GetString(segmentText)</li>
+                    <li class="breadcrumb-item active" aria-current="page">@DnD_Sheet.Resources.Views.Guides.Guides.GetString(segmentText)</li>
                 }
                 else
                 {
                     if (i == 0)
                     {
-                        <li class="breadcrumb-item"><a href="/Guides">@DnD_Sheet.Resources.Views.Home.Guides.GetString("Title")</a></li>
+                        <li class="breadcrumb-item"><a href="/Guides">@DnD_Sheet.Resources.Views.Guides.Guides.GetString("Title")</a></li>
                     }
                     else
                     {
-                        <li class="breadcrumb-item"><a href="/@segmentPath">@DnD_Sheet.Resources.Views.Home.Guides.GetString(segmentText)</a></li>
+                        <li class="breadcrumb-item"><a href="/@segmentPath">@DnD_Sheet.Resources.Views.Guides.Guides.GetString(segmentText)</a></li>
                     }
                 }
             }
@@ -82,7 +82,7 @@
                     }
                     path += $"/{folderPath}/{itemName}";
                 }
-                <a href="@path" class="list-group-item list-group-item-action"><strong>@DnD_Sheet.Resources.Views.Home.Guides.GetString(itemName)</strong></a>
+                <a href="@path" class="list-group-item list-group-item-action"><strong>@DnD_Sheet.Resources.Views.Guides.Guides.GetString(itemName)</strong></a>
             </li>
         }
     }
