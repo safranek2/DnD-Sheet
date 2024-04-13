@@ -1,11 +1,7 @@
 ﻿using DnD_Sheet.Models;
 using Markdig;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 
 namespace DnD_Sheet.Controllers
 {
@@ -33,7 +29,7 @@ namespace DnD_Sheet.Controllers
             var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "Resources", "Guides", folderPath.Replace('/', Path.DirectorySeparatorChar));
 
             if (!Directory.Exists(fullPath))
-                return NotFound();
+                return RedirectToAction("PageNotFound", "Home");
 
             if (System.IO.File.Exists(fullPath))
                 return GuideContent(folderPath);
@@ -51,7 +47,7 @@ namespace DnD_Sheet.Controllers
             var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "Resources", "Guides", filePath.Replace('/', Path.DirectorySeparatorChar) + ".md");
 
             if (!System.IO.File.Exists(fullPath))
-                return NotFound();
+                return RedirectToAction("PageNotFound", "Home");
 
             string htmlContent = "";
             string extension = "en";

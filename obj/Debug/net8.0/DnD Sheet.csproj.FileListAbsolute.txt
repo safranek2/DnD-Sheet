@@ -107,3 +107,6 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Re
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.Guides.cs.resources
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Guides\DnDQuickGuide.cs.md
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Guides\DnDQuickGuide.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.PageNotFound.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.PageNotFound.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD Sheet.sourcelink.json

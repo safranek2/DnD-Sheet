@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Collections.Generic;
+using Microsoft.Extensions.FileSystemGlobbing.Internal;
 
 namespace DnD_Sheet
 {
@@ -28,10 +29,9 @@ namespace DnD_Sheet
 
             app.UseRequestLocalization(localizationOptions);
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
 
@@ -41,7 +41,12 @@ namespace DnD_Sheet
             app.UseAuthorization();
 
             app.MapControllerRoute(
-                name: "guidesIndex",
+                name: "guideHandlePath",
+                pattern: "/CharacterCreator",
+                defaults: new { controller = "Home", action = "CharacterCreator" });
+
+            app.MapControllerRoute(
+                name: "guides",
                 pattern: "/Guides",
                 defaults: new { controller = "Guides", action = "Guides" });
 
@@ -55,15 +60,22 @@ namespace DnD_Sheet
                 pattern: "/Guide/{**filePath}",
                 defaults: new { controller = "Guides", action = "GuideContent" });
 
-
             app.MapControllerRoute(
                 name: "privacyPolicy",
                 pattern: "/PrivacyPolicy",
                 defaults: new { controller = "Home", action = "PrivacyPolicy" });
 
             app.MapControllerRoute(
+                name: "setLanguage",
+                pattern: "/SetLanguage/{**lang}",
+                defaults: new { controller = "Home", action = "SetLanguage" });
+
+            app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "",
+                defaults: new { controller = "Home", action = "Index" });
+
+            app.MapFallbackToController("PageNotFound", "Home");
 
             app.Run();
         }

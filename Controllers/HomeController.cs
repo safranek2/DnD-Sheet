@@ -24,13 +24,19 @@ namespace DnD_Sheet.Controllers
             return View();
         }
 
+        [Route("404")]
+        public IActionResult PageNotFound()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult SetLanguage(string? lang)
+        public IActionResult SetLanguage(string lang)
         {
             if (!string.IsNullOrEmpty(lang))
             {
