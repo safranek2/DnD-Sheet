@@ -117,16 +117,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BuildingWebApps" xml:space="preserve">
-    <value>vytváření webových aplikací s ASP.NET Core</value>
-  </data>
   <data name="HomePage" xml:space="preserve">
     <value>Domovská Stránka</value>
   </data>
-  <data name="LearnAbout" xml:space="preserve">
-    <value>Zjistěte více o</value>
-  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Vítejte</value>
+  </data>
+  <data name="AboutPage" xml:space="preserve">
+    <value>O stránce</value>
+  </data>
+  <data name="AboutPageDescription" xml:space="preserve">
+    <value>Tento web se věnuje poskytování nejlepšího obsahu a zdrojů pro vaše dobrodružství Dungeons &amp; Dragons.</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Vlastnosti</value>
+  </data>
+  <data name="FeaturesDescription" xml:space="preserve">
+    <value>Prozkoumejte výkonné funkce této stránky:</value>
+  </data>
+  <data name="FeaturesPoint1" xml:space="preserve">
+    <value>Tvorba charakteru</value>
+  </data>
+  <data name="FeaturesPoint2" xml:space="preserve">
+    <value>Návody</value>
+  </data>
+  <data name="FeaturesDescription2" xml:space="preserve">
+    <value>Jste připraveni začít?</value>
+  </data>
+  <data name="ExploreGuides" xml:space="preserve">
+    <value>Prozkoumejte návody</value>
+  </data>
+  <data name="CreateYourCharacter" xml:space="preserve">
+    <value>Vytvořte svou postavu</value>
+  </data>
+  <data name="ExploreGuidesDescription" xml:space="preserve">
+    <value>Ponořte se do pokladů znalostí a vydejte se na další dobrodružství:</value>
+  </data>
+  <data name="ExploreGuidesPoint1" xml:space="preserve">
+    <value>Objevte odborně vytvořené průvodce a návody</value>
+  </data>
+  <data name="ExploreGuidesPoint2" xml:space="preserve">
+    <value>Zvládněte složitost vytváření postav, budování světa a další</value>
+  </data>
+  <data name="ExploreGuidesPoint3" xml:space="preserve">
+    <value>Vylepšete svoji hratelnost s cennými tipy a strategiemi</value>
+  </data>
+  <data name="ExploreGuidesDescription2" xml:space="preserve">
+    <value>Jste připraveni začít svou cestu?</value>
+  </data>
+  <data name="ExploreGuidesDescription3start" xml:space="preserve">
+    <value>Návštivte sekci</value>
+  </data>
+  <data name="ExploreGuidesDescription3end" xml:space="preserve">
+    <value>a začněte zkoumat obrovský svět Dungeons &amp; Dragons!</value>
+  </data>
+  <data name="Guides" xml:space="preserve">
+    <value>Návody</value>
   </data>
 </root>

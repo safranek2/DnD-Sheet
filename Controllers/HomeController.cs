@@ -19,6 +19,11 @@ namespace DnD_Sheet.Controllers
             return View();
         }
 
+        public IActionResult CharacterCreator()
+        {
+            return View();
+        }
+
         public IActionResult PrivacyPolicy()
         {
             return View();

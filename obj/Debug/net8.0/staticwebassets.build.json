@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vPksh8jjQdy9rHkTRPtaXOM8aS2FYwbGzd43lKIWRH4=",
+  "Hash": "sz8h1yJu6hZaJQT3Dp+mvKoYZoH+PYSijhsw9r0lkk0=",
   "Source": "DnD Sheet",
   "BasePath": "_content/DnD Sheet",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\CharacterCreator\\DnDSheet.pdf",
+      "SourceId": "DnD Sheet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\",
+      "BasePath": "_content/DnD Sheet",
+      "RelativePath": "CharacterCreator/DnDSheet.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CharacterCreator\\DnDSheet.pdf"
     },
     {
       "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\js\\site.js",

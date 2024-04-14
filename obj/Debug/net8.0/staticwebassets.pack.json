@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\DnD Sheet.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\CharacterCreator\\DnDSheet.pdf",
+      "PackagePath": "staticwebassets\\CharacterCreator\\DnDSheet.pdf"
+    },
+    {
       "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\blackLogo.svg",
       "PackagePath": "staticwebassets\\blackLogo.svg"
     },

@@ -23,7 +23,7 @@
                 var segmentText = segments[i];
                 if (i == segments.Length - 1)
                 {
-                    <li class="breadcrumb-item active" aria-current="page">@segmentText</li>
+                    <li class="breadcrumb-item active" aria-current="page">@DnD_Sheet.Resources.Views.Guides.Guides.GetString(segmentText)</li>
                 }
                 else
                 {
@@ -33,7 +33,7 @@
                     }
                     else
                     {
-                        <li class="breadcrumb-item"><a href="@segmentPath">@segmentText</a></li>
+                        <li class="breadcrumb-item"><a href="@segmentPath">@DnD_Sheet.Resources.Views.Guides.Guides.GetString(segmentText)</a></li>
                     }
                 }
             }

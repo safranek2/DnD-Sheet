@@ -103,8 +103,6 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Gu
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Guides\Bestiary\Plants\AwakenedShrub.md
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Guides\Bestiary\Plants\AwakenedTree.cs.md
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Guides\Bestiary\Plants\AwakenedTree.md
-C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.Guides.resources
-C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.Guides.cs.resources
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Guides\DnDQuickGuide.cs.md
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\Resources\Guides\DnDQuickGuide.md
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.PageNotFound.resources
@@ -112,3 +110,6 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Re
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD Sheet.sourcelink.json
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Guides.Guides.resources
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Guides.Guides.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.CharacterCreator.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Debug\net8.0\DnD_Sheet.Resources.Views.Home.CharacterCreator.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Debug\net8.0\wwwroot\CharacterCreator\DnDSheet.pdf

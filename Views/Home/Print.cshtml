@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Print Character";
+    Layout = null;
+}
+
+<h2>Character Information</h2>
+<p>Jméno: @ViewBag.FirstName</p>
+<p>Příjmení: @ViewBag.LastName</p>
+
+<script>
+    // Tisk stránky po načtení
+    window.onload = function () {
+        window.print();
+        // Po tisku se automaticky přesměrovat zpět na formulář
+        window.location.href = '@Url.Action("Index", "Character")';
+    };
+</script>

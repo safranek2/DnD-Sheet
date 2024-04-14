@@ -11,7 +11,7 @@ DnD je stolní hra na hraní rolí, ve které si hráči vytvářejí postavy a 
 ### 1. Vytvořte si postavu
 
 - **Vyberte si rasu a třídu:** Rozhodněte se pro rasu své postavy (například člověk, elf, trpaslík) a třídu (například bojovník, čaroděj, tulák). Každá volba ovlivňuje vaše schopnosti a dovednosti.
-- **Házejte kostkami a určete šest bodů schopností své postavy: Síla, Obratnost, Úcta, Inteligence, Moudrost a Charisma.
+- **Hod skóre schopností:** Házejte kostkami a určete šest bodů schopností své postavy:** Síla, Obratnost, Úcta, Inteligence, Moudrost a Charisma.
 - **Přizpůsobte si postavu:** Vyberte si původ, pojmenujte svou postavu a dokreslete její osobnost a příběh.
 
 ### 2. Naučte se základy

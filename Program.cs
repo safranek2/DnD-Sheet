@@ -41,7 +41,7 @@ namespace DnD_Sheet
             app.UseAuthorization();
 
             app.MapControllerRoute(
-                name: "guideHandlePath",
+                name: "characterCreator",
                 pattern: "/CharacterCreator",
                 defaults: new { controller = "Home", action = "CharacterCreator" });
 

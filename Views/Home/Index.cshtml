@@ -2,7 +2,29 @@
     ViewData["Title"] = @DnD_Sheet.Resources.Views.Home.Index.HomePage;
 }
 
-<div class="text-center">
-    <h1 class="display-4">@DnD_Sheet.Resources.Views.Home.Index.Welcome</h1>
-    <p>@DnD_Sheet.Resources.Views.Home.Index.LearnAbout <a href="https://docs.microsoft.com/aspnet/core">@DnD_Sheet.Resources.Views.Home.Index.BuildingWebApps</a>.</p>
-</div>
+<h1>@DnD_Sheet.Resources.Views.Home.Index.Welcome</h1>
+<section>
+    <h3>@DnD_Sheet.Resources.Views.Home.Index.AboutPage</h3>
+    <p>@DnD_Sheet.Resources.Views.Home.Index.AboutPageDescription</p>
+</section>
+<section>
+    <h3>@DnD_Sheet.Resources.Views.Home.Index.Features</h3>
+    <p>@DnD_Sheet.Resources.Views.Home.Index.FeaturesDescription</p>
+    <ul>
+        <li>@DnD_Sheet.Resources.Views.Home.Index.FeaturesPoint1</li>
+        <li>@DnD_Sheet.Resources.Views.Home.Index.FeaturesPoint2</li>
+    </ul>
+    <p>@DnD_Sheet.Resources.Views.Home.Index.FeaturesDescription2 <a asp-controller="Home" asp-action="CharacterCreator">@DnD_Sheet.Resources.Views.Home.Index.CreateYourCharacter</a></p>
+</section>
+<section>
+    <h3>@DnD_Sheet.Resources.Views.Home.Index.ExploreGuides</h3>
+    <p>@DnD_Sheet.Resources.Views.Home.Index.ExploreGuidesDescription</p>
+    <ul>
+        <li>@DnD_Sheet.Resources.Views.Home.Index.ExploreGuidesPoint1</li>
+        <li>@DnD_Sheet.Resources.Views.Home.Index.ExploreGuidesPoint2</li>
+        <li>@DnD_Sheet.Resources.Views.Home.Index.ExploreGuidesPoint3</li>
+    </ul>
+    <p>@DnD_Sheet.Resources.Views.Home.Index.ExploreGuidesDescription2</p>
+    <p>@DnD_Sheet.Resources.Views.Home.Index.ExploreGuidesDescription3start <a asp-controller="Guides" asp-action="Guides">@DnD_Sheet.Resources.Views.Home.Index.Guides</a> @DnD_Sheet.Resources.Views.Home.Index.ExploreGuidesDescription3end</p>
+</section>
+

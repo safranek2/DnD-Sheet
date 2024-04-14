@@ -117,16 +117,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BuildingWebApps" xml:space="preserve">
-    <value>building Web apps with ASP.NET Core</value>
-  </data>
   <data name="HomePage" xml:space="preserve">
     <value>Home Page</value>
   </data>
-  <data name="LearnAbout" xml:space="preserve">
-    <value>Learn about</value>
-  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome</value>
+  </data>
+  <data name="AboutPage" xml:space="preserve">
+    <value>About Page</value>
+  </data>
+  <data name="AboutPageDescription" xml:space="preserve">
+    <value>This site is dedicated to providing the best content and resources for your Dungeons &amp; Dragons adventures.</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="FeaturesDescription" xml:space="preserve">
+    <value>Explore the powerful features of this page:</value>
+  </data>
+  <data name="FeaturesPoint1" xml:space="preserve">
+    <value>Character Creator</value>
+  </data>
+  <data name="FeaturesPoint2" xml:space="preserve">
+    <value>Guides</value>
+  </data>
+  <data name="FeaturesDescription2" xml:space="preserve">
+    <value>Ready to get started?</value>
+  </data>
+  <data name="ExploreGuides" xml:space="preserve">
+    <value>Explore Guides</value>
+  </data>
+  <data name="CreateYourCharacter" xml:space="preserve">
+    <value>Create Your Character</value>
+  </data>
+  <data name="ExploreGuidesDescription" xml:space="preserve">
+    <value>Dive into a treasure trove of knowledge and embark on your next adventure:</value>
+  </data>
+  <data name="ExploreGuidesPoint1" xml:space="preserve">
+    <value>Discover expertly crafted guides and tutorials</value>
+  </data>
+  <data name="ExploreGuidesPoint2" xml:space="preserve">
+    <value>Master the intricacies of character creation, world-building, and more</value>
+  </data>
+  <data name="ExploreGuidesPoint3" xml:space="preserve">
+    <value>Enhance your gameplay with valuable tips and strategies</value>
+  </data>
+  <data name="ExploreGuidesDescription2" xml:space="preserve">
+    <value>Ready to begin your journey?</value>
+  </data>
+  <data name="ExploreGuidesDescription3start" xml:space="preserve">
+    <value>Visit</value>
+  </data>
+  <data name="ExploreGuidesDescription3end" xml:space="preserve">
+    <value>section and start exploring the vast world of Dungeons &amp; Dragons!</value>
+  </data>
+  <data name="Guides" xml:space="preserve">
+    <value>Guides</value>
   </data>
 </root>
