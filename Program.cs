@@ -1,10 +1,4 @@
-using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using System.Globalization;
-using System.Collections.Generic;
-using Microsoft.Extensions.FileSystemGlobbing.Internal;
 
 namespace DnD_Sheet
 {

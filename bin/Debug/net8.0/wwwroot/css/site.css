@@ -63,6 +63,12 @@ main {
     border: none;
 }
 
+.pdf-container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 footer {
     bottom: 0;
 }

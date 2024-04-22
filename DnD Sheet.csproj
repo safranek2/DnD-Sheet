@@ -41,6 +41,9 @@
     <EmbeddedResource Update="Resources\Views\Home\PrivacyPolicy.resx">
       <Generator></Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\_Layout.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

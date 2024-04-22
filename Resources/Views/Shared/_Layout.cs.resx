@@ -126,6 +126,9 @@
   <data name="HomePage" xml:space="preserve">
     <value>Úvodní stránka</value>
   </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Prozkoumejte náš tvůrce postav a průvodce hrou Dungeons &amp; Dragons. Ponořte se do světa D&amp;D s našimi všestrannými nástroji, včetně tvorby postav, prohlížení průvodců a dalších. Užijte si přizpůsobitelná témata s tmavým a světlým režimem spolu s jazykovými možnostmi v češtině a angličtině.</value>
+  </data>
   <data name="PrivacyPolicy" xml:space="preserve">
     <value>Zásady ochrany osobních údajů</value>
   </data>
