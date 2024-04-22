@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cy41dynA06MKK5inXtu1kqAH2jsoewnWsNwRksMsX8Q=",
+  "Hash": "VJNhkOaAmY8VcOGugkFZg2CYz7jKuaQ/FzGFKwNl+/M=",
   "Source": "DnD Sheet",
   "BasePath": "_content/DnD Sheet",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DnD Sheet.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\blackLogo.svg",
+      "SourceId": "DnD Sheet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\",
+      "BasePath": "_content/DnD Sheet",
+      "RelativePath": "blackLogo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\blackLogo.svg"
+    },
+    {
       "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\css\\site.css",
       "SourceId": "DnD Sheet",
       "SourceType": "Discovered",
@@ -69,17 +88,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\CharacterCreator\\DnDSheet.pdf",
       "SourceId": "DnD Sheet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\",
       "BasePath": "_content/DnD Sheet",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "CharacterCreator/DnDSheet.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\CharacterCreator\\DnDSheet.pdf"
     },
     {
       "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\js\\site.js",
@@ -1193,6 +1212,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\logo.svg",
+      "SourceId": "DnD Sheet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\",
+      "BasePath": "_content/DnD Sheet",
+      "RelativePath": "logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\whiteLogo.svg",
+      "SourceId": "DnD Sheet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\",
+      "BasePath": "_content/DnD Sheet",
+      "RelativePath": "whiteLogo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\whiteLogo.svg"
     }
   ]
 }

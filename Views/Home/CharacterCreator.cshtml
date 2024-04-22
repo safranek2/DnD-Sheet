@@ -4,4 +4,8 @@
 
 <h1 class="text-center">@DnD_Sheet.Resources.Views.Home.CharacterCreator.Title</h1>
 
-<iframe id="pdfViewer" src="~/CharacterCreator/DnDSheet.pdf" width="100%" height="700px" frameborder="0"></iframe>
+<div class="pdf-container">
+    <object data="~/CharacterCreator/DnDSheet.pdf" type="application/pdf" width="100%" height="800px">
+        <p class="text-center">@DnD_Sheet.Resources.Views.Home.CharacterCreator.PDFContainerFail <a href="~/CharacterCreator/DnDSheet.pdf" download="DnDSheet">@DnD_Sheet.Resources.Views.Home.CharacterCreator.Here</a>.</p>
+    </object>
+</div>

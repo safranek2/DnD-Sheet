@@ -7,7 +7,6 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\DnD Sheet.
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\DnD Sheet.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\DnD Sheet.pdb
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\cs\DnD Sheet.resources.dll
-C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\en\DnD Sheet.resources.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -20,8 +19,6 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Newtonsoft
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\System.Security.Permissions.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.csproj.AssemblyReference.cache
-C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Localization.Views.Home.Index.cs.resources
-C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Localization.Views.Home.Index.en.resources
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.csproj.GenerateResource.cache
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.AssemblyInfoInputs.cache
@@ -31,7 +28,6 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.RazorAssemblyInfo.cache
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.RazorAssemblyInfo.cs
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\cs\DnD Sheet.resources.dll
-C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\en\DnD Sheet.resources.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\staticwebassets.build.json
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\staticwebassets.development.json
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\staticwebassets\msbuild.DnD Sheet.Microsoft.AspNetCore.StaticWebAssets.props
@@ -55,3 +51,65 @@ C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\wwwroot\blackLogo.svg
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\wwwroot\css\site.css
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\wwwroot\logo.svg
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\wwwroot\whiteLogo.svg
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Chromatic\AdultBlackDragon.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Chromatic\AdultBlackDragon.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Chromatic\AdultBlueDragon.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Chromatic\AdultBlueDragon.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Metalic\AdultBrassDragon.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Metalic\AdultBrassDragon.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Metalic\AdultSilverDragon.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Dragons\Metalic\AdultSilverDragon.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Plants\AwakenedShrub.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Plants\AwakenedShrub.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Plants\AwakenedTree.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Bestiary\Plants\AwakenedTree.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\DnDQuickGuide.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\DnDQuickGuide.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Classes\Fighter.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Classes\Fighter.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Classes\Wizard.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Classes\Wizard.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Races\Elf.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Races\Elf.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Races\Human.cs.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Resources\Guides\Player\Races\Human.md
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\wwwroot\CharacterCreator\DnDSheet.pdf
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\wwwroot\js\site.js
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Markdig.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.ApplicationInsights.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AI.DependencyCollector.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AI.EventCounterCollector.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AI.WindowsServer.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\System.Drawing.Common.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\System.Windows.Extensions.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\bin\Release\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Guides.Guides.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.CharacterCreator.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.Index.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.PageNotFound.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.PrivacyPolicy.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Shared._Layout.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Guides.Guides.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.CharacterCreator.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.Index.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.PageNotFound.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Home.PrivacyPolicy.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD_Sheet.Resources.Views.Shared._Layout.cs.resources
+C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet\obj\Release\net8.0\DnD Sheet.sourcelink.json

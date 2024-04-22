@@ -29,7 +29,8 @@
       <Generator></Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\Views\Home\CharacterCreator.resx">
-      <Generator></Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharacterCreator.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\Views\Home\Index.cs.resx">
       <Generator></Generator>
@@ -45,6 +46,14 @@
   <ItemGroup>
     <Folder Include="Resources\Guides\Bestiary\Plants\" />
     <Folder Include="Resources\Guides\Player\Classes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Views\Home\CharacterCreator.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CharacterCreator.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

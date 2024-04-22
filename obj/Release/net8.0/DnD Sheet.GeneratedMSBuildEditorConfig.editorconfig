@@ -18,12 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\safra\OneDrive\Plocha\DnD Sheet\DnD Sheet
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Guides/Group.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVzXEdyb3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Guides/GuideContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVzXEd1aWRlQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Guides/Guides.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVzXEd1aWRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Home/CharacterCreator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyYWN0ZXJDcmVhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Home/PageNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Home/PrivacyPolicy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5UG9saWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/safra/OneDrive/Plocha/DnD Sheet/DnD Sheet/Views/Shared/Error.cshtml]

@@ -5,12 +5,16 @@
       "PackagePath": "staticwebassets\\DnD Sheet.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\CharacterCreator\\DnDSheet.pdf",
+      "PackagePath": "staticwebassets\\CharacterCreator\\DnDSheet.pdf"
     },
     {
-      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\blackLogo.svg",
+      "PackagePath": "staticwebassets\\blackLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\js\\site.js",
@@ -243,6 +247,14 @@
     {
       "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\logo.svg",
+      "PackagePath": "staticwebassets\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\safra\\OneDrive\\Plocha\\DnD Sheet\\DnD Sheet\\wwwroot\\whiteLogo.svg",
+      "PackagePath": "staticwebassets\\whiteLogo.svg"
     },
     {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.DnD Sheet.Microsoft.AspNetCore.StaticWebAssets.props",

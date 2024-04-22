@@ -61,6 +61,24 @@ namespace DnD_Sheet.Resources.Views.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to here.
+        /// </summary>
+        public static string Here {
+            get {
+                return ResourceManager.GetString("Here", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unfortunately, your browser does not support the display of PDF files. You can download it.
+        /// </summary>
+        public static string PDFContainerFail {
+            get {
+                return ResourceManager.GetString("PDFContainerFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Character Creator.
         /// </summary>
         public static string Title {
